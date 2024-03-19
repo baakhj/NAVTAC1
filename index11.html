@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Two Navigation Bars</title>
+  <style>.top-nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .top-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .top-nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Styles for left navigation bar */
+  .sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+  
+  #left-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #left-nav li {
+    margin-bottom: 10px;
+  }
+  
+  #left-nav a {
+    color: #333;
+    text-decoration: none;
+  }</style>
+</head>
+<body>
+  <header>
+    <nav class="top-nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="sidebar">
+    <nav id="left-nav">
+      <ul>
+        <li><a href="#">Menu Item 1</a></li>
+        <li><a href="#">Menu Item 2</a></li>
+        <li><a href="#">Menu Item 3</a></li>
+        <li><a href="#">Menu Item 4</a></li>
+      </ul>
+    </nav>
+  </div>
+  <main>
+    <!-- Rest of the page content -->
+  </main>
+</body>
+</html>
+
